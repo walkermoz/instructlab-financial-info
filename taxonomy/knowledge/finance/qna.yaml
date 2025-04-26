@@ -1,0 +1,119 @@
+created_by: walkermoz
+version: 2
+domain: Traditional Finance
+document_outline: |
+  This document covers foundational knowledge of traditional financial systems, financial markets, monetary policy, 
+  financial institutions' roles, risks, and the lessons learned from major financial crises like 2007-2008.
+seed_examples:
+  - context: |
+      Financial markets and institutions together form the backbone of the global economy. 
+      They facilitate the movement of funds from surplus spending units (SSUs) to deficit spending units (DSUs). 
+      Financial institutions such as banks, insurance companies, and investment firms intermediate this process by 
+      pooling savings, providing loans, underwriting risk, and creating liquidity. 
+      The Federal Reserve, as the U.S. central bank, regulates monetary policy to ensure economic stability through mechanisms 
+      such as setting interest rates and regulating the money supply. 
+      Key risks in the financial system include credit risk, interest rate risk, liquidity risk, and political/regulatory risk.
+    questions_and_answers:
+      - question: |
+          What is the primary function of financial institutions?
+        answer: |
+          Financial institutions pool savings and allocate capital efficiently by lending to borrowers, underwriting risk, and providing liquidity to the economy.
+      - question: |
+          What role does the Federal Reserve play in the U.S. economy?
+        answer: |
+          The Federal Reserve manages monetary policy by adjusting interest rates, regulating the money supply, and providing financial oversight to promote economic stability.
+      - question: |
+          What are examples of risks faced by financial institutions?
+        answer: |
+          Examples include credit risk (borrowers defaulting), interest rate risk (changes affecting profitability), liquidity risk (inability to meet short-term obligations), and political risk (regulatory changes).
+
+  - context: |
+      The financial collapse of 2007-2008 was a systemic event caused by excessive private debt, weak regulatory frameworks, 
+      poor risk management, and over-reliance on complex financial derivatives like mortgage-backed securities (MBS) and collateralized debt obligations (CDOs). 
+      Institutions underestimated correlated risks, leading to widespread bank failures and economic recession. 
+      After the crisis, major reforms like the Dodd-Frank Act and Basel III were introduced to strengthen financial regulation and promote systemic resilience.
+    questions_and_answers:
+      - question: |
+          What triggered the 2007-2008 financial crisis?
+        answer: |
+          The crisis was triggered by excessive private borrowing, lax regulation, and the collapse of mortgage-backed securities that led to major financial institution failures.
+      - question: |
+          What regulatory reforms were introduced after the financial crisis?
+        answer: |
+          Reforms included the Dodd-Frank Act, which created stricter oversight of financial institutions, and Basel III, which increased capital reserve requirements for banks.
+      - question: |
+          Why did complex financial products like CDOs contribute to the financial meltdown?
+        answer: |
+          CDOs bundled risky mortgages into opaque instruments, spreading credit risk throughout the financial system, but were poorly understood and rated, leading to widespread defaults.
+
+  - context: |
+      Portfolio diversification is a fundamental risk management strategy in finance based on the principle of not putting all eggs in one basket. 
+      Modern Portfolio Theory, developed by Harry Markowitz in 1952, provides a mathematical framework for assembling a portfolio of assets 
+      that maximizes expected return for a given level of risk. The theory demonstrates that combining assets with low correlation can reduce 
+      portfolio volatility without necessarily sacrificing returns. Asset allocation across different classes (stocks, bonds, real estate, commodities) 
+      and geographic regions helps investors manage systematic and unsystematic risks. While diversification cannot eliminate all investment risks, 
+      it remains one of the most effective strategies for long-term wealth preservation and growth.
+    questions_and_answers:
+      - question: |
+          What is Modern Portfolio Theory?
+        answer: |
+          Modern Portfolio Theory is a mathematical framework developed by Harry Markowitz that demonstrates how investors can optimize portfolios by combining assets with different risk-return profiles and correlations to maximize returns for a given level of risk.
+      - question: |
+          How does diversification reduce investment risk?
+        answer: |
+          Diversification reduces risk by spreading investments across multiple assets with low correlations, so that negative performance in one investment can be offset by positive performance in others, lowering overall portfolio volatility.
+      - question: |
+          What is the difference between systematic and unsystematic risk?
+        answer: |
+          Systematic risk affects the entire market (like recessions or interest rate changes) and cannot be diversified away, while unsystematic risk is specific to individual companies or sectors and can be reduced through diversification.
+
+  - context: |
+      Capital markets facilitate the buying and selling of long-term financial instruments and are crucial for economic growth. 
+      They are divided into primary markets, where new securities are issued and sold to investors, and secondary markets, where existing 
+      securities are traded among investors. The efficiency of capital markets is measured by how quickly security prices reflect new 
+      information. The Efficient Market Hypothesis (EMH), developed by Eugene Fama, proposes three forms of market efficiency: weak, 
+      semi-strong, and strong. Investment banks play a critical role in capital markets by underwriting securities issuances, 
+      providing advisory services for mergers and acquisitions, and facilitating market-making activities. Stock exchanges like the 
+      NYSE and NASDAQ provide the infrastructure for these markets to operate efficiently.
+    questions_and_answers:
+      - question: |
+          What is the difference between primary and secondary capital markets?
+        answer: |
+          Primary capital markets handle new securities issuances where companies raise capital directly, while secondary markets facilitate trading of existing securities among investors without generating new capital for the issuing companies.
+      - question: |
+          What is the Efficient Market Hypothesis and its forms?
+        answer: |
+          The Efficient Market Hypothesis states that security prices reflect all available information. The weak form claims prices reflect all past trading information, the semi-strong form asserts prices adjust to all public information, and the strong form maintains prices incorporate all information, including private insider information.
+      - question: |
+          What role do investment banks play in capital markets?
+        answer: |
+          Investment banks underwrite securities issuances, provide advisory services for corporate transactions like mergers and acquisitions, facilitate market-making to provide liquidity, and offer research to help investors make informed decisions.
+
+  - context: |
+      Central banks employ various monetary policy tools to manage economic growth, inflation, and financial stability. 
+      Open market operations involve buying or selling government securities to control money supply and influence interest rates. 
+      The discount rate is the interest rate central banks charge commercial banks for short-term loans, while reserve requirements 
+      mandate the minimum amount of reserves banks must hold against deposits. Quantitative easing (QE) is an unconventional tool 
+      used when traditional methods are ineffective, involving large-scale asset purchases to inject liquidity into the financial system. 
+      Forward guidance communicates future policy intentions to shape market expectations. Central banks must navigate policy tradeoffs, 
+      as actions to curb inflation often slow economic growth, while stimulating growth may risk higher inflation. The policy transmission 
+      mechanism describes how monetary policy decisions flow through the financial system to affect the broader economy.
+    questions_and_answers:
+      - question: |
+          What are open market operations and how do they affect the economy?
+        answer: |
+          Open market operations are the buying and selling of government securities by central banks. When they buy securities, they inject money into the banking system, increasing money supply and lowering interest rates to stimulate economic activity. When they sell securities, they reduce money supply and raise interest rates to combat inflation.
+      - question: |
+          How does quantitative easing differ from conventional monetary policy?
+        answer: |
+          Quantitative easing involves large-scale asset purchases beyond traditional government securities, including mortgage-backed securities and corporate bonds, to inject substantial liquidity when interest rates are already near zero. Unlike conventional tools, QE directly expands the central bank's balance sheet and focuses on increasing the money supply rather than just managing interest rates.
+      - question: |
+          What is the monetary policy transmission mechanism?
+        answer: |
+          The monetary policy transmission mechanism is the process through which central bank decisions affect the economy, working through several channels: interest rates (affecting borrowing costs), asset prices (influencing wealth and investment), exchange rates (impacting international trade), credit availability (altering lending conditions), and expectations (shaping consumer and business confidence).
+
+document:
+  repo: https://github.com/billioonaire/instructlab-financial-info.git
+  commit: main
+  patterns:
+    - finance.md
